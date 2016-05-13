@@ -1,0 +1,148 @@
+\documentclass[margin-section]{resume}
+
+\begin{document}
+
+% Heading information
+\name{Holly A. French}
+\address{48 Douglass\\San Francisco, CA 94114}
+\address{(949) 338-6971\\hollyafrench90@gmail.com\\github.com/phrenchphry11}
+
+\begin{resume}
+
+    % Professional Experience -------------------------------------------------
+    \section{Professional\\Experience}
+
+    % Pandora
+    \employer{Pandora Radio (via Rdio acquisition)}
+    \location{Oakland, California}
+
+    \title{Software Developer}
+    \dates{January 2016 -- Present}
+
+    \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        % Dev
+        \item Member of Pandora's Ad Targeting and Delivery team:
+        \begin{list2}
+            \item Responsible for managing ad tracking stats.
+            \item Implemented logging for number of serves, impressions, and clicks per ad, which gets stored in Redis, Hadoop, and StatsD.
+            \item Created periodic Hadoop and Redis reports on ad stats to monitor overall trends and individual stats per ad.
+            \item Refactored acceptance tests in Python, and ported them over to use the PyTest library.
+        \end{list2}
+    \end{list2}
+    \end{position}
+
+    % Rdio
+    \employer{Rdio}
+    \location{San Francisco, California}
+
+    \title{Software Developer}
+    \dates{July 2014 -- December 2015}
+
+    \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        % Dev
+        \item Member of Rdio's Backend Features team until acquisition by Pandora:
+        \begin{list2}
+            \item Responsible for developing and maintaining internal Django APIs, admin pages, email daemons, and MySQL database migrations.
+            \item Built the APIs and subscription logic of Rdio Select, Rdio’s mid-level, lower cost monthly subscription tier.
+            \item Developed features for Rdio Live, a partnership with radio stations around the world to stream live radio through the Rdio web app and fully integrate live music streams into the product.
+        \end{list2}
+    \end{list2}
+
+    % Rdio
+    \employer{Piazza Technologies, Inc.}
+    \location{Palo Alto, California}
+
+    \title{Software Developer}
+    \dates{June 2013 -- June 2014}
+
+    \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        % Dev
+        \item Designed and developed Piazza's real-time in-class polls feature launched on iOS, Android, and our web client.
+        \begin{list2}
+            \item Implemented the frontend and backend for polls on the web.
+            \item Did hands-on customer development to drive the initial spec and iterate on feedback by meeting with professors and students.
+        \end{list2}
+        \item Implemented the backend to support push notifications for Piazza’s Android app.
+    \end{list2}
+
+    % Education ---------------------------------------------------------------
+    \section{Education}
+
+    \title{Bachelor of Arts in Computer Science}
+    \employer{Carleton College}
+    \dates{September 2009 -- June 2013}
+    \location{Northfield, Minnesota}
+
+    \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        \item Graduated \emph{Cum Laude}.
+    \end{list2}
+    \end{position}
+
+    % Technical Skills --------------------------------------------------------
+    \section{Skills}
+        \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        \item Experienced in Python, Django, Java, SQL, Redis, Git, Perforce.
+        \item Proficient in Hive, HTML/CSS, iOS, JavaScript, JQuery, Mercurial, MongoDB, Ruby, Swift.
+    \end{list2}
+    \end{position}
+
+    % Technical Training --------------------------------------------------------
+    \section{Training}
+
+    \title{Introduction to iOS Programming in Swift}
+    \employer{Codepath}
+    \dates{May 2015}
+    \location{San Francisco, California}
+
+    \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        \item Completed a 10-week course in iOS Programming through Codepath.
+        \item The course culminated in a final project, where I created a public transit scheduling app.
+    \end{list2}
+    \end{position}
+
+    % Technical Awards --------------------------------------------------------
+    % \section{Awards}
+
+    % Volunteer --------------------------------------------------------
+    \section{Volunteer Experience}
+
+    \title{Mentor}
+    \employer{Hackbright Academy}
+    \dates{July 2015 -- Present}
+    \location{San Francisco, California}
+
+    \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        \item Hackbright Academy is a software engineering school for women. We provide guidance for women on technical engineering questions, career advice, and job interview preparation.
+    \end{list2}
+    \end{position}
+
+    \title{Organizer}
+    \employer{Django Girls}
+    \dates{November 2014 \& December 2015}
+    \location{San Francisco, California}
+
+    \begin{position}
+    \vspace{-\baselineskip}
+    \begin{list2}
+        \item Django Girls is a crash course in Django for beginning women coders. We provide curriculum and resources for a group of 30 students to complete a two-day introduction to Python and Django.
+    \end{list2}
+    \end{position}
+
+    %\textbf{}
+
+\end{resume}
+\end{document}
